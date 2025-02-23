@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech Branch Selection</title>
+    <style>
+        /* Basic Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Title Styling */
+        .header h1 {
+            font-size: 35px;
+            color: #463e41;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        /* Grid Layout for Buttons */
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 70%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        /* General Button Styling */
+        button {
+            background-color: #A49393;
+            height: 80px;
+            width: 100%;
+            border-radius: 35px;
+            color: #f0e6d2;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Button Hover Effect */
+        button:hover {
+            background-color: #675b5b;
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Footer Section */
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Select Your B.Tech Branch</h1>
+    </div>
+    <div class="button-container">
+        <a href="B.Tech/ce.html"><button>Computer Science</button></a>
+        <a href="B.Tech/it.html"><button>Information Technology</button></a>
+        <a href="B.Tech/ec.html"><button>Electronics & Communication Engineering</button></a>
+        <a href="B.Tech/ic.html"><button>Instrumentation & Control Engineering</button></a>
+        <a href="B.Tech/ai.html"><button>AI/ML</button></a>
+        <a href="B.Tech/ic.html"><button>Chemical Engineering</button></a>
+        <a href="B.Tech/mechenical.html"><button>Mechanical Engineering</button></a>
+        <a href="B.Tech/civil.html"><button>Civil Engineering</button></a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Stream Selection. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
